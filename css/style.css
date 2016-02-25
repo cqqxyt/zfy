@@ -28,6 +28,7 @@ body{
 	border-top:5px solid rgba(212, 212, 212, 0.45);
 	font-size: 12px;
 }
+.small-screen-menu{display: none;}
 .clearfix{zoom:1;}
 .logo{
 	width: 176px;
@@ -181,7 +182,15 @@ body{
     margin-top: 10px;
     background: rgba(227, 227, 225, 0.44);
     width: 120px;
-    padding: 10px; }
+    padding: 10px; 
+display: block;
+opacity: 0.8;
+filter:alpha(opacity=80);}
+.more:hover{
+	opacity: 1;
+filter:alpha(opacity=100);
+color:#FFE053;
+}
 .more i{margin-left: 5px;}
 .button {
 	font-family: 'Cookie', cursive;
