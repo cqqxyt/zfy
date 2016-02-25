@@ -1106,11 +1106,11 @@ footer .main{width: 80%;margin:auto};
     width: 100%;
 }
 .packagesImgOne{
-    background-image: url("/images/index/1.jpg");
+    background-image: url("../images/index/1.jpg");
 }
-.packagesImgtwo{background-image: url("/images/index/2.jpg");}
-.packagesImgthree{background-image: url("/images/index/3.jpg");}
-.packagesImgfour{background-image: url("/images/index/4.jpg");}
+.packagesImgtwo{background-image: url("../images/index/2.jpg");}
+.packagesImgthree{background-image: url("../images/index/3.jpg");}
+.packagesImgfour{background-image: url("../images/index/4.jpg");}
 .content{
     padding:10px 0 20px 0;
 }
