@@ -20,13 +20,23 @@ a{text-decoration:none;}
 nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
+.f12{
+	font-size: 12px;
+}
 .fl{float: left;}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
 .position-re{position:relative;}
 /*end reset*/
 body{
 	background:#8b8177;
-	border-top:5px solid rgba(212, 212, 212, 0.45);
 	font-size: 12px;
+	font-family: "Microsoft yahei";
 }
 .small-screen-menu{display: none;}
 .clearfix{zoom:1;}
@@ -54,7 +64,7 @@ body{
  }
 /*---start-header----*/
 .header {
-	/*border-bottom: 3px solid #ff8500;*/
+	border-bottom: 3px solid #F2CB41;
 	background: #433a31;
 }
 .logo{
@@ -63,7 +73,6 @@ body{
 }
 .image-slider{
 	background: #433a31;
-	padding-bottom: 20px;
 	padding-top:0;
 }
 .top-nav{
@@ -90,22 +99,21 @@ body{
 	background: rgba(212, 212, 212, 0.45);
 }
 .mid-content{
-	background: #1f1a16;
-	height: 75px;
+	height: 47px;
 	width: 100%;
-	padding-top:10px;
+	padding-top:20px;
 }
 .list-info{
-	width: 1180px;
 	margin: auto;
+	text-align: center;
 }
 .list-info ul li{
-	padding: 20px;
-	background: #36312d;
-	color: #ffe053;
-	display: inline-block;
-	font-size: 20px;
-	opacity: 0.8;
+	padding: 12px;
+    background: #d2d2d2;
+    color: #4A4A4A;
+    display: inline-block;
+    font-size: 15px;
+    opacity: 0.8;
 	filter:alpha(opacity=80);
 }
 .list-info ul li.link:hover{
@@ -950,7 +958,7 @@ footer .main{width: 80%;margin:auto};
 /*\底部特色频道*/
 
 	
-.friendly-link-wrap { background:black; color:#9C9696; overflow:hidden;text-align: center;padding:20px;}
+.friendly-link-wrap { background:#433A31; color:#9C9696; overflow:hidden;text-align: center;padding:20px 0;}
 .friendly-link-wrap ul li a{  color:#9C9696;}	
 .friendly-link-wrap ul li a:hover{color:#FFE053;}
 .friendly-link-wrap ul li{border-right: 1px solid #9C9696;float: left;margin-right:5px ;padding-right:5px;}
@@ -1263,4 +1271,85 @@ ul.activeWrap  li{border-bottom: 1px dotted #000000;height: 30px;line-height: 30
 }
 .child-menu li:hover a{color: #ffffff;}
 
+.bread-nav,.bread-nav a{
+	color:#ffffff;
+}
+.page_workTitle {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    margin-top:30px;
+}
+.page_workMenu {
+    width: 100%;
+    float: left;
+}
+.page_workTitle span {
+    float: right;
+    color: #b5bdc3;
+    font-size: 22px;
+    margin: 3px 0px 0 2px;
+}
+.page_workTitle div {
+    float: right;
+    color: #433A31;
+    font-size: 26px;
+}
+.page_workMenu ul {
+    float: right;
+    margin: 10px 0px 0 0;
+}
+.page_workMenu ul li {
+    float: left;
+}
+.page_workMenu ul li a {
+    width: 116px;
+    height: 33px;
+    background: #d2d2d2;
+    line-height: 33px;
+    text-align: center;
+    display: block;
+    margin-left: 1px;
+    color: #454545;
+    font-size: 13px;
+}
+.page_workMenu ul li .menuCur {
+    background: #433A31;
+    color: #ffffff;
+}
+.priceImg {
+    float: left;
+    margin: 0 0 50px 58px;
+    position: relative;
+    width: 282px;
+    height: 377px;
+    white-space: pre-line;
+    background: #ffffff;
+    padding: 20px;
+    font-size: 14px;
+    margin-top:20px;
+}
+.priceImg-title{
+	font-size: 18px;
+	color:#e50112;
+}
+.page_center { width: 100%; text-align: center; margin-top: 50px; padding-bottom: 50px; }
+.page_centerBox { width: 403px; margin: auto; }
+.page_title { width: 100%; height: 40px; line-height: 40px;margin-bottom: 20px; }
+.page_title div {  color: #433A31; font-size: 26px; }
+.page_title span { color: #b5bdc3; font-size: 22px; margin: 3px 0 0 2px; }
+.page_info { color: #333333; font-size: 17px; line-height: 180%;  margin-left: 60px;text-align: left; }
+.page_info span { width: 100%; display: block; height: 30px; line-height: 30px; *width:1000px !ie7;
+}
+.page_info span div {  }
+.page_info span img {margin-left: 5px; }
+.page_info span a {  color: #333333; margin: 2px 0 0 5px; }
+.page_info span a:hover { color: #e50112 }
+.page_from { width: 100%; *width:1000px !ie7;
+}
+.price-main{
+	width: 80%;
+	margin: 0 auto;
+}
 /*end container*/

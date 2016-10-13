@@ -1,0 +1,128 @@
+ #masonry, #main-content{
+		margin-top: 80px;
+   	margin-bottom: 80px;
+}
+/* MASONRY */
+#masonry {width: 100%;margin: 0 auto;}
+.box {
+  float: left;
+  margin: 0 10px 10px 0;
+  width: 270px;
+  height: auto;
+  overflow: hidden;
+}
+.box.large {width: 550px;}
+.box a, .box div.blue {
+	position:relative;
+	width:100%;
+	height:100%;
+	display: block;  
+  -webkit-transition: background-color 0.3s linear;
+     -moz-transition: background-color 0.3s linear;
+       -o-transition: background-color 0.3s linear;
+          transition: background-color 0.3s linear;
+		   	   -webkit-backface-visibility: hidden;
+	
+	}
+.box a:hover,.box div.blue:hover {background-color: #1acccc; *background-color: #00CCFF;}
+.box a div{
+  position: absolute; 
+  left: 0; 
+  top: 0; 
+  width: 100%;  
+  height: 178px;
+  display: table;
+  z-index:999;
+  }
+#main-content .box {position: relative;}
+.box.large a div, .box.tall a div {height: 366px;}
+.box a div p, .blog-post .post-image div p{
+  font: 18px "Century Gothic", Helvetica, Arial, sans-serif;
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center; 
+  color: #fff;
+  padding:0 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+ }
+.blog-post iframe {width: 100%!important;height:auto;min-height: 450px;}
+.lt-ie9 #client .box a p {line-height: 20px;padding-bottom:30px;}
+.lt-ie9 #client .box a p, .lt-ie9 .box a div p, .lt-ie9 .blog-post .post-image div p {filter: alpha(opacity=0);}
+.box.tab p { opacity:1; filter: alpha(opacity=100)!important;}
+.box a:hover img, .box:hover img{opacity: 0.1;-moz-opacity: 0.1;filter: alpha(opacity=10);}
+.box a.active img {opacity: 0.4;-moz-opacity: 0.4;filter: alpha(opacity=40);}
+.box a:hover p, .box a.active p{opacity: 1;-moz-opacity: 1;filter: alpha(opacity=100);}
+.lt-ie9 #client .box a:hover p, .lt-ie9 .box a.active p, .lt-ie9 .box a:hover p {filter: alpha(opacity=100);}
+.box img{ 
+  -webkit-transition: opacity 0.3s linear;
+     -moz-transition: opacity 0.3s linear;
+       -o-transition: opacity 0.3s linear;
+          transition: opacity 0.3s linear;
+	  -webkit-backface-visibility: hidden;
+}
+.box a > div p {
+  -webkit-transition: opacity 0.8s linear;
+     -moz-transition: opacity 0.8s linear;
+       -o-transition: opacity 0.8s linear;
+          transition: opacity 0.8s linear;
+	-webkit-backface-visibility: hidden;
+}
+.box a div.login-form {
+  display:none;
+}
+.box a img {margin:0;}
+.box.image a p {
+   	font:18px "Century Gothic", Helvetica, Arial, sans-serif;
+   	color:#FFFFFF;
+   	letter-spacing: 3px;
+   	text-transform: uppercase;
+	position:absolute; 
+	top: 50%; 
+	margin-top:-15px;
+	height:30px; 
+	width: 100%;
+	padding:0; 
+	display: block; 
+	text-align: center; 
+	opacity:0;
+	}
+.box.image a:hover p {
+	opacity:1;
+}
+.box a.active{background-color: #000000;}
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+      -ms-transition-duration: 0.4s;
+       -o-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+@media (min-width: 980px) {
+  .nav-collapse.collapse {
+    height: auto !important;
+    overflow: visible !important;
+  }
+  .span9 p{
+  max-width: 740px;
+  }
+  .blog-post .post-image {max-width:740px;}
+  .box a div p, .blog-post .post-image div p {opacity:0;}
+}

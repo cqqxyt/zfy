@@ -1,30 +1,3 @@
-body.dark-mode , 
-body.dark-mode .main { background: #196A7C /*url(../graph/images/bg/bg.png)*/ }
-body { font-family: "SimSun"; font-size: 12px; text-align: center; /*background:#00ADB0; */  }
-#body a:link, #body a:active { text-decoration: none; }
-a:hover, #body a:hover { text-decoration: underline }
-a {display:inline-block; }
-figure { margin: 0 }
-.mainWidth-inner { /*width:80%; */ margin: 0 auto; width: 1050px; }
-.index.main { width: 98.5%; }
-.main { position: relative; /*z-index: 102;*/ width: 1180px;margin: 0 auto; overflow: hidden; }
-.main.list { width:1100px}
-.main-1100 { width: 1100px; margin: 0 auto; }
-.main-inner-wrap { width: 80%; margin: 0 auto; margin-top: 50px }
-.bg { position: absolute; left: 0; top: 0; width: 100%; height: 4000px; z-Index: 100; }
-.main100p { width: 100% }
-.mt80 { margin-top: 80px }
-.photo-wall.honeymoon {margin-top: -6px;}
-video { background:black}
-.hr1{ clear:both; border:0; height:1px; margin:0; border-top:1px #029EA1 solid; overflow:hidden;opacity: .6;}
-.hr1-d{ clear:both; border:0; height:1px;  border-bottom:1px dashed #029EA1}
-.header-blank{ height:50px; height:0\9;}
-
-.music-player { float:right; width:200px; height:50px; z-index:100000; position: fixed; right:0}
-.stretch-banner { display:none; z-index:1000;border: 2px #CC0066 solid;margin-top: 50px;}
-
-#body .bg-orange { background: #F35100; border: 5px #F35100 solid; }
-#body .no-bg { border: 0; background: none }
 .cop { background:url(http://resources1.gulove.com/graph/icon/footer-cop.png) center no-repeat; height:100px }
 .cop2 { background:url(http://resources1.gulove.com/graph/icon/slogan_cop.png) no-repeat center; height:22px; margin-top:25px; margin-bottom:30px }
 .tooltip { background: red; color: white; padding: 4px }
@@ -754,7 +727,6 @@ footer { margin-top:118px}
 	
 	.big-logo-wrap { margin-top:60px; margin-bottom:55px}
 	
-.friendly-link-wrap { background:black; color:#363736; overflow:hidden}
 .friendly-link-wrap a {color:#363736}
 .friendly-link  { margin:33px auto; text-align:left; line-height:20px }
 .friendly-link > li { display:inline; margin-right:10px }	
